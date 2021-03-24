@@ -5,6 +5,7 @@ using UnityEngine;
 public class DimensionChanger : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
+    [SerializeField] private Animator camAnimator;
     
     public bool isVertical = false;
     [SerializeField] private Sprite[] bgDimesnions;
@@ -21,6 +22,7 @@ public class DimensionChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Time.timeScale = Random.Range(0.8f, 1.2f);
+            camAnimator.SetTrigger("zoom");
             isVertical = !isVertical;
             if (isVertical)
             {
@@ -31,7 +33,6 @@ public class DimensionChanger : MonoBehaviour
                 _spriteRenderer.sprite = bgDimesnions[1];
             }
         }
-
-        transform.Rotate(0f, 0f, 10f * Time.deltaTime);
+        
     }
 }
