@@ -34,11 +34,13 @@ public class PlayerMovement : MonoBehaviour
         
         if (_dimensionChanger.isVertical)
         {
-            _rigidbody2D.velocity = movementY.normalized * (moveSpeed * Time.deltaTime);
+            //_rigidbody2D.velocity = movementY.normalized * (moveSpeed * Time.deltaTime);
+            _rigidbody2D.AddForce(movementY.normalized * (moveSpeed * Time.deltaTime));
         }
         else if (!_dimensionChanger.isVertical)
         {
-            _rigidbody2D.velocity = movementX.normalized * (moveSpeed * Time.deltaTime);
+            //_rigidbody2D.velocity = movementX.normalized * (moveSpeed * Time.deltaTime);
+            _rigidbody2D.AddForce(movementX.normalized * (moveSpeed * Time.deltaTime));
         }
         else
         {
