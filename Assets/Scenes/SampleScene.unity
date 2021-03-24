@@ -466,8 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isVertical: 0
   bgDimesnions:
-  - {fileID: 21300000, guid: be86f727db18fb64cb65216b1377d573, type: 3}
-  - {fileID: 21300000, guid: 42293000e0aaef24789626d4ae0e1da4, type: 3}
+  - {fileID: 21300000, guid: 4bf2965f19ee498499868a4a2b71b641, type: 3}
+  - {fileID: 21300000, guid: 243c6382c3f892449a95e035cf29843c, type: 3}
 --- !u!4 &1593672398
 Transform:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 42293000e0aaef24789626d4ae0e1da4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 243c6382c3f892449a95e035cf29843c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -669,8 +669,9 @@ GameObject:
   - component: {fileID: 1871474683}
   - component: {fileID: 1871474687}
   - component: {fileID: 1871474684}
+  - component: {fileID: 1871474688}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +753,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -792,6 +793,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1871474688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871474682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642304802d0b1b445a9ab5769b01c37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964719335
 GameObject:
   m_ObjectHideFlags: 0

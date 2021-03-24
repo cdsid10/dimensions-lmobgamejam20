@@ -11,18 +11,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/JuiceInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DimensionPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/DimensionChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Pickup.cs" />
-      <option value="$PROJECT_DIR$/Assets/JuiceInstantiate.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/JumpsLeft.cs" />
+      <option value="$PROJECT_DIR$/Assets/JuiceInstantiate.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -67,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616544802388</updated>
       <workItem from="1616544809659" duration="1463000" />
-      <workItem from="1616580146685" duration="2501000" />
+      <workItem from="1616580146685" duration="2730000" />
+      <workItem from="1616583371146" duration="280000" />
     </task>
     <servers />
   </component>

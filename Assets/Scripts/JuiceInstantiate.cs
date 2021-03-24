@@ -46,7 +46,7 @@ public class JuiceInstantiate : MonoBehaviour
                     Instantiate(juice, spawn, Quaternion.identity);
                 }
                 
-                timeRemaining = Random.Range(3f, 5f);
+                timeRemaining = Random.Range(5f, 8f);
             }
                 
         }
