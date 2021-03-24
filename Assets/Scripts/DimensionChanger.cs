@@ -20,6 +20,7 @@ public class DimensionChanger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Time.timeScale = Random.Range(0.8f, 1.2f);
             isVertical = !isVertical;
             if (isVertical)
             {
