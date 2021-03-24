@@ -6,6 +6,7 @@
     <e p="C:\Users\Sidd\Documents\GitHub\dimensions-lmobgamejam20" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DimensionPool.cs" t="Include" />
         <e p="JuiceInstantiate.cs" t="Include" />
         <e p="JumpsLeft.cs" t="Include" />
         <e p="Pickup.cs" t="Include" />

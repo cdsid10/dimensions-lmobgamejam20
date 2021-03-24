@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JuiceInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DimensionPool.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616544802388</updated>
       <workItem from="1616544809659" duration="1463000" />
-      <workItem from="1616580146685" duration="1998000" />
+      <workItem from="1616580146685" duration="2501000" />
     </task>
     <servers />
   </component>
