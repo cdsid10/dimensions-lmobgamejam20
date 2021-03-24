@@ -22,8 +22,9 @@
       <option value="$PROJECT_DIR$/Assets/JuiceInstantiate.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" />
       <option value="$PROJECT_DIR$/Assets/ParticleColor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -72,6 +73,8 @@
       <workItem from="1616583371146" duration="280000" />
       <workItem from="1616593914382" duration="1465000" />
       <workItem from="1616609075942" duration="3487000" />
+      <workItem from="1616623979253" duration="1796000" />
+      <workItem from="1616627267513" duration="677000" />
     </task>
     <servers />
   </component>
