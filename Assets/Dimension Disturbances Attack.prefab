@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3463413986084949903}
   - component: {fileID: 3463413986084949900}
-  - component: {fileID: 3463413986084949902}
+  - component: {fileID: 2638032134040666818}
   - component: {fileID: -1985247499556814137}
-  - component: {fileID: -351868040992891690}
-  - component: {fileID: 7333750132176653250}
+  - component: {fileID: -1329378132253704684}
+  - component: {fileID: -3577258893698330427}
   m_Layer: 0
-  m_Name: Dimension Disturbances
+  m_Name: Dimension Disturbances Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3463413986084949901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.18, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -76,19 +76,19 @@ SpriteRenderer:
   m_SortingLayerID: 993052255
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: 183ab7c574a656749b8a018ef73d1a8e, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5d39470037fc4fb45bb0b819e1133de4, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &3463413986084949902
-CircleCollider2D:
+--- !u!60 &2638032134040666818
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -101,8 +101,26 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.4
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.026779175, y: 0.06755173}
+      - {x: -0.37070465, y: 0.40733838}
+      - {x: -0.4030285, y: 0.35990828}
+      - {x: -0.07008076, y: -0.033212245}
+      - {x: -0.051733017, y: -0.37285957}
+      - {x: 0.051733017, y: -0.43750727}
+      - {x: 0.060395718, y: 0.012965769}
+      - {x: 0.3981185, y: 0.35740674}
+      - {x: 0.32545137, y: 0.3836342}
 --- !u!50 &-1985247499556814137
 Rigidbody2D:
   serializedVersion: 4
@@ -124,7 +142,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-351868040992891690
+--- !u!114 &-1329378132253704684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,10 +151,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3463413986084949901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f32719790933d4480a6302407f0b8e, type: 3}
+  m_Script: {fileID: 11500000, guid: 12a9fdeb5825dcf41a9d2d7928958d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7333750132176653250
+--- !u!114 &-3577258893698330427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,13 +163,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3463413986084949901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7177294a652c5c8498000aa167b5668e, type: 3}
+  m_Script: {fileID: 11500000, guid: 46d7aa7843845454f8f0984b8ebb859b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _colors:
-  - {r: 0.50980395, g: 0.34509805, b: 0.62352943, a: 1}
-  - {r: 0.42745098, g: 0.12941177, b: 0.30980393, a: 1}
-  - {r: 0.09411765, g: 0.17254902, b: 0.38039216, a: 1}
-  - {r: 0.34509805, g: 0.69411767, b: 0.62352943, a: 1}
-  - {r: 0.91764706, g: 0.70980394, b: 0.2627451, a: 1}
-  - {r: 0.7411765, g: 0.77254903, b: 0.5058824, a: 1}
+  player: {fileID: 0}
+  particles: {fileID: 2797013398928053145, guid: a02834ef7edf24b4d91bfaf43a10e4bb, type: 3}

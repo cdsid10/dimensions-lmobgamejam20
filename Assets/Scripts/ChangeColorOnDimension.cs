@@ -7,7 +7,7 @@ public class ChangeColorOnDimension : MonoBehaviour
     private DimensionChanger _dimensionChanger;
 
     private SpriteRenderer _spriteRenderer;
-    
+
     // Start is called before the first frame update
     void Start()
     {

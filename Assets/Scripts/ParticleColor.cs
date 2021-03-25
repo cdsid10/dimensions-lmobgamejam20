@@ -5,7 +5,6 @@ using UnityEngine;
 public class ParticleColor : MonoBehaviour
 {
     private DimensionChanger _dimensionChanger;
-    
     private ParticleSystem _particleSystem;
     
     // Start is called before the first frame update

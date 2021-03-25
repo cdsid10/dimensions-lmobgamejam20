@@ -7,17 +7,19 @@ using Random = UnityEngine.Random;
 
 public class DimensionPool : MonoBehaviour
 {
-    [SerializeField] private GameObject dBances;
-    private float timeRemaining;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        Instantiate(dBances, transform.position, quaternion.identity);
-    }
-
+    [SerializeField] private GameObject[] dBances;
+    [SerializeField] private GameObject dAttack;
+    [SerializeField] private float timeRemaining, aTimeRemaining;
+    [SerializeField] private Transform player;
+    
     // Update is called once per frame
     void Update()
+    {
+        Spawner();
+        AttackSpawner();
+    }
+
+    void Spawner()
     {
         if (timeRemaining > 0)
         {
@@ -25,8 +27,38 @@ public class DimensionPool : MonoBehaviour
         }
         else if (timeRemaining <= 0)
         {
-            Instantiate(dBances, transform.position, quaternion.identity);
-            timeRemaining = Random.Range(1f, 3f);
+            Vector3 spawn = new Vector3(Random.Range(-8, 8), Random.Range(-5f, 5f), 0f);
+            if ((spawn - player.transform.position).magnitude < 4)
+            {
+                return;
+            }
+            else
+            {
+                Instantiate(dBances[Random.Range(0, dBances.Length)], spawn, Quaternion.identity);
+            }
+            timeRemaining = Random.Range(0.15f, 1.25f);
+        }
+    }
+    
+    private void AttackSpawner()
+    {
+        if (aTimeRemaining > 0)
+        {
+            aTimeRemaining -= Time.deltaTime;
+        }
+        else if (aTimeRemaining <= 0)
+        {
+            Vector3 spawn = new Vector3(Random.Range(-8, 8), Random.Range(-5f, 5f), 0f);
+            if ((spawn - player.transform.position).magnitude < 4)
+            {
+                return;
+            }
+            else
+            {
+                Instantiate(dAttack, spawn, Quaternion.identity);
+            }
+
+            aTimeRemaining = Random.Range(1.5f, 4f);
         }
     }
 }

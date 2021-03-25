@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class JumpsLeft : MonoBehaviour
 {
     public int jumpsLeft;
 
+    [SerializeField] private TMP_Text warpLeft, jumpLeft;
     [SerializeField] private int jumpsToCompleteLoop;
     // Start is called before the first frame update
     void Start()
     {
-        jumpsToCompleteLoop = Random.Range(30, 50);
+        jumpsToCompleteLoop = Random.Range(15, 35);
     }
 
     // Update is called once per frame
@@ -30,5 +32,8 @@ public class JumpsLeft : MonoBehaviour
                 Debug.Log("Jeet Gaya Madarchod");
             }
         }
+
+        jumpLeft.text = jumpsLeft.ToString();
+        warpLeft.text = jumpsToCompleteLoop.ToString();
     }
 }

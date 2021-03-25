@@ -19,16 +19,16 @@ public class JuiceInstantiate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SpawnEnemies();
+        SpawnJuice();
     }
     
-    void SpawnEnemies()
+    void SpawnJuice()
     {
-        if (_jumpsLeft.jumpsLeft >= 5)
+        if (_jumpsLeft.jumpsLeft >= 10)
         {
             return;
         }
-        else if (_jumpsLeft.jumpsLeft < 5)
+        else if (_jumpsLeft.jumpsLeft < 10)
         {
             if (timeRemaining > 0)
             {
@@ -37,7 +37,7 @@ public class JuiceInstantiate : MonoBehaviour
             else
             {
                 Vector3 spawn = new Vector3(Random.Range(-7, 7), Random.Range(-4.5f, 4.5f), 0f);
-                if ((spawn - player.transform.position).magnitude < 3)
+                if ((spawn - player.transform.position).magnitude < 2f)
                 {
                     return;
                 }
@@ -46,7 +46,7 @@ public class JuiceInstantiate : MonoBehaviour
                     Instantiate(juice, spawn, Quaternion.identity);
                 }
                 
-                timeRemaining = Random.Range(5f, 8f);
+                timeRemaining = Random.Range(3f, 5f);
             }
                 
         }

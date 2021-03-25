@@ -18,12 +18,6 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void FixedUpdate()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -46,6 +40,5 @@ public class PlayerMovement : MonoBehaviour
         {
             _rigidbody2D.velocity = Vector2.zero;
         }
-        
     }
 }

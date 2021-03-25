@@ -12,6 +12,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DisturbancesAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeTextColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -23,13 +25,20 @@
       <option value="$PROJECT_DIR$/Assets/JuiceInstantiate.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" />
       <option value="$PROJECT_DIR$/Assets/ParticleColor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColorOnDimension.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColorOnDimension.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ParticleColor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeTextColor.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeImageColor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeJuiceColor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JuiceInstantiate.cs" />
+      <option value="$PROJECT_DIR$/Assets/DisturbancesAttack.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -81,6 +90,8 @@
       <workItem from="1616623979253" duration="1796000" />
       <workItem from="1616627267513" duration="677000" />
       <workItem from="1616666822578" duration="3623000" />
+      <workItem from="1616680255173" duration="550000" />
+      <workItem from="1616692632267" duration="15648000" />
     </task>
     <servers />
   </component>
