@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3463413986084949903}
   - component: {fileID: 3463413986084949900}
   - component: {fileID: 3463413986084949902}
+  - component: {fileID: -1985247499556814137}
+  - component: {fileID: -351868040992891690}
+  - component: {fileID: 7333750132176653250}
   m_Layer: 0
   m_Name: Dimension Disturbances
   m_TagString: Untagged
@@ -74,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2747690628134850419, guid: 183ab7c574a656749b8a018ef73d1a8e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,3 +103,55 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!50 &-1985247499556814137
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463413986084949901}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-351868040992891690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463413986084949901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f32719790933d4480a6302407f0b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7333750132176653250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463413986084949901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7177294a652c5c8498000aa167b5668e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colors:
+  - {r: 0.50980395, g: 0.34509805, b: 0.62352943, a: 1}
+  - {r: 0.42745098, g: 0.12941177, b: 0.30980393, a: 1}
+  - {r: 0.09411765, g: 0.17254902, b: 0.38039216, a: 1}
+  - {r: 0.34509805, g: 0.69411767, b: 0.62352943, a: 1}
+  - {r: 0.91764706, g: 0.70980394, b: 0.2627451, a: 1}
+  - {r: 0.7411765, g: 0.77254903, b: 0.5058824, a: 1}

@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -23,8 +24,12 @@
       <option value="$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" />
       <option value="$PROJECT_DIR$/Assets/ParticleColor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColorOnDimension.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -75,6 +80,7 @@
       <workItem from="1616609075942" duration="3487000" />
       <workItem from="1616623979253" duration="1796000" />
       <workItem from="1616627267513" duration="677000" />
+      <workItem from="1616666822578" duration="3623000" />
     </task>
     <servers />
   </component>
