@@ -39,10 +39,10 @@
       <option value="$PROJECT_DIR$/Assets/DisturbancesAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/JuiceInstantiate.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FullscreenToggle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JuiceInstantiate.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -104,7 +104,7 @@
       <workItem from="1616666822578" duration="3623000" />
       <workItem from="1616680255173" duration="550000" />
       <workItem from="1616692632267" duration="15648000" />
-      <workItem from="1616786673512" duration="9508000" />
+      <workItem from="1616786673512" duration="10111000" />
     </task>
     <servers />
   </component>

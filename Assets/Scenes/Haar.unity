@@ -1377,8 +1377,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Outta luck boss!, i thought we had the Djuice consumption in control there,
 
-    i
-    guess not.'
+    Recalculating
+    djuice consumption rate...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ce03d8f6cf0a6b4dbacd94d77067d01, type: 2}
   m_sharedMaterial: {fileID: 729623691719929757, guid: 8ce03d8f6cf0a6b4dbacd94d77067d01, type: 2}
