@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 
 public class Pickup : MonoBehaviour
 {
+    private AudioManager _audioManager;
     private Rigidbody2D _rigidbody2D;
     
     private JumpsLeft _jumpsLeft;
@@ -15,6 +16,7 @@ public class Pickup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _audioManager = FindObjectOfType<AudioManager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _jumpsLeft = FindObjectOfType<JumpsLeft>();
         _rigidbody2D.AddForce(new Vector2(Random.Range(-5f, 5f), Random.Range(-5f, 5f)));
@@ -27,6 +29,7 @@ public class Pickup : MonoBehaviour
             _jumpsLeft.jumpsLeft++;
             Destroy(gameObject);
             Instantiate(particles, transform.position, quaternion.identity);
+            _audioManager.PlayPickup();
         }
         
     }

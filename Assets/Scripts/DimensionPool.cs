@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -58,7 +57,7 @@ public class DimensionPool : MonoBehaviour
                 Instantiate(dAttack, spawn, Quaternion.identity);
             }
 
-            aTimeRemaining = Random.Range(1.5f, 4f);
+            aTimeRemaining = Random.Range(2f, 4f);
         }
     }
 }

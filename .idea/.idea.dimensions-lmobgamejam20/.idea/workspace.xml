@@ -11,9 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DisturbancesAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeTextColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FullscreenToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,20 +23,26 @@
       <option value="$PROJECT_DIR$/Assets/JuiceInstantiate.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeColorOnDimension.cs" />
       <option value="$PROJECT_DIR$/Assets/ParticleColor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeDisturbanceColor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColorOnDimension.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ParticleColor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeTextColor.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeImageColor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeJuiceColor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/JuiceInstantiate.cs" />
+      <option value="$PROJECT_DIR$/Assets/CollisionForce.cs" />
+      <option value="$PROJECT_DIR$/Assets/Pause.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu.cs" />
+      <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionChanger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Disturbances.cs" />
       <option value="$PROJECT_DIR$/Assets/DisturbancesAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pickup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JuiceInstantiate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JumpsLeft.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FullscreenToggle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DimensionPool.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qBEtoUCKcBWu1uVd0dEvVhAu68" />
@@ -55,6 +59,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Dimensio\Dimensio.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Sidd\Desktop\Dimensio" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -92,6 +104,7 @@
       <workItem from="1616666822578" duration="3623000" />
       <workItem from="1616680255173" duration="550000" />
       <workItem from="1616692632267" duration="15648000" />
+      <workItem from="1616786673512" duration="9508000" />
     </task>
     <servers />
   </component>

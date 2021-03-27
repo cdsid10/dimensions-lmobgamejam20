@@ -24,11 +24,11 @@ public class JuiceInstantiate : MonoBehaviour
     
     void SpawnJuice()
     {
-        if (_jumpsLeft.jumpsLeft >= 10)
+        if (_jumpsLeft.jumpsLeft >= 6)
         {
             return;
         }
-        else if (_jumpsLeft.jumpsLeft < 10)
+        else if (_jumpsLeft.jumpsLeft < 6)
         {
             if (timeRemaining > 0)
             {

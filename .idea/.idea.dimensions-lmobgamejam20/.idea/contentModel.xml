@@ -6,18 +6,24 @@
     <e p="C:\Users\Sidd\Documents\GitHub\dimensions-lmobgamejam20" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ChangeDisturbanceColor.cs" t="Include" />
-        <e p="ChangeJuiceColor.cs" t="Include" />
-        <e p="ChangeTextColor.cs" t="Include" />
-        <e p="Disturbances.cs" t="Include" />
-        <e p="DisturbancesAttack.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="ChangeColorOnDimension.cs" t="Include" />
+          <e p="ChangeDisturbanceColor.cs" t="Include" />
+          <e p="ChangeJuiceColor.cs" t="Include" />
+          <e p="ChangeTextColor.cs" t="Include" />
+          <e p="CollisionForce.cs" t="Include" />
           <e p="DimensionChanger.cs" t="Include" />
           <e p="DimensionPool.cs" t="Include" />
+          <e p="Disturbances.cs" t="Include" />
+          <e p="DisturbancesAttack.cs" t="Include" />
+          <e p="DontDestroy.cs" t="Include" />
+          <e p="FullscreenToggle.cs" t="Include" />
           <e p="JuiceInstantiate.cs" t="Include" />
           <e p="JumpsLeft.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
           <e p="ParticleColor.cs" t="Include" />
+          <e p="Pause.cs" t="Include" />
           <e p="Pickup.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
